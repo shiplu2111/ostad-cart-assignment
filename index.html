@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container mx-auto p-4">
+    <h1 class="text-2xl font-bold mb-4">Product List</h1>
+    <div id="product-list" class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+      <!-- Product items will be dynamically added here -->
+    </div>
+
+    <hr class="my-8">
+
+    <h1 class="text-2xl font-bold mb-4 text-center ">Shopping Cart</h1>
+    <div id="shopping-cart" class="space-y-4 text-center ">
+      <!-- Cart items will be dynamically added here -->
+    </div>
+
+    
+
+    <div class="text-center">
+      <button id="clear-cart-btn" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+        Clear Cart
+      </button>
+    </div>
+  </div>
+
+
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
